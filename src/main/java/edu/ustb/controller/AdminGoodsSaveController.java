@@ -52,7 +52,7 @@ public class AdminGoodsSaveController extends HttpServlet {
             int rows = goodMapper.save(goods);
 
             if(rows > 0) {
-                req.getRequestDispatcher("/admin/goods/show.jsp").forward(req, resp);
+                req.getRequestDispatcher("/admin/goods/search.action").forward(req, resp);
             }
 
         }catch (Exception e){

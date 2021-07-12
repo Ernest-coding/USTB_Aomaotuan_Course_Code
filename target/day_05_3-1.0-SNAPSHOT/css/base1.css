@@ -1,0 +1,121 @@
+/*头部搜索和logo*/
+.logoAndSearch{
+	height: 104px;
+	line-height: 34px;
+	position: relative;
+}
+.logoAndSearch .logo{
+	width: 245px;
+	height: 94px;
+	float: left;
+	padding-top: 10px;
+}
+.logoAndSearch .LAStxt{
+	height: 61px;
+	border-left: 1px solid #ccc;
+	float: left;
+	padding-left: 10px;
+	font:18px/61px "微软雅黑";
+	color: #8E8E8E;
+	margin-top: 30px;
+}
+.logo a{
+	width: 244px;
+	height: 88px;
+	display: block;
+	background: url(../images/logo.png) no-repeat;
+	text-indent: -1000px;
+}
+.search{
+	height: 36px;
+	padding-top: 30px;
+	float: right;
+	margin-left: 140px;
+	position: relative;
+}
+.search div{
+	float: left;
+}
+.search .txt input{
+	width: 505px;
+	height: 34px;
+	border:1px solid #000;
+	border-right: none;
+	text-indent: 1em;
+	border-radius: 5px 0 0 5px;
+}
+.search .txt{
+	position: relative;
+	margin-left: -1px;
+}
+.search .txt em{
+	display: block;
+	height: 18px;
+	width: 18px;
+	position: absolute;
+	top:50%;
+	margin-top: -9px;
+	right: 3px;
+	background: url(../images/ss.png) no-repeat;
+	cursor: pointer;
+}
+.search .btn{
+	width: 68px;
+	height: 36px;
+	background: #7BBE31;
+	border-radius: 0 5px 5px 0;
+	display: block;
+	float: left;
+	color: #fff;
+	line-height: 36px;
+	text-align: center;
+}
+.search ul{
+	position: absolute;
+	bottom: -17px;
+}
+.search ul li{
+	cursor: pointer;
+	padding:0 5px;
+	border-right: 1px solid #999999;
+	font:12px/12px "微软雅黑";
+	float: left;
+}
+.search ul li.BN{
+	border: none;
+}
+.search ul li a,.search ul li a:hover{
+	color: #999999;
+}
+/*底部*/
+footer{
+	height: 96px;
+	text-align: center;
+	padding-top:20px;
+}
+footer .txt{
+	position: relative;
+}
+footer p{
+	padding-top: 5px;
+	font: 12px/20px "微软雅黑";
+	color: #999;
+}
+footer a,footer a:hover,footer span{
+	color: #000;
+}
+footer ul{
+	padding:5px;
+}
+footer li{
+	display: inline-block;
+	margin-right: 5px;
+}
+footer .ALLN{
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	bottom: 0;
+	right: 30%;
+	background: url(../images/sprite.png) -1px -890px;
+}

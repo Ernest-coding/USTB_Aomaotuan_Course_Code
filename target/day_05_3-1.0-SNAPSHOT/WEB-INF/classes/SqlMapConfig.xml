@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- MyBatis的主配置文件 -->
+<configuration>
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <property name="helperDialect" value="mysql"/>
+        </plugin>
+    </plugins>
+    <!-- 配置环境 -->
+    <environments default="mysql">
+        <!-- 配置MySQL环境 -->
+        <environment id="mysql">
+            <!-- 配置事务类型 -->
+            <transactionManager type="JDBC"/>
+            <!-- 配置数据源/连接池 -->
+            <dataSource type="POOLED">
+                <!-- 配置连接数据库的4个基本信息  -->
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/temp?serverTimezone=UTC"/>
+                <property name="username" value="root"/>
+                <property name="password" value="766188487"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!-- 指定映射配置文件的位置 -->
+    <mappers>
+        <mapper resource="mapper/adminMapper.xml"/>
+        <mapper resource="mapper/funsMapper.xml"/>
+        <mapper resource="mapper/goodMapper.xml"/>
+    </mappers>
+</configuration>

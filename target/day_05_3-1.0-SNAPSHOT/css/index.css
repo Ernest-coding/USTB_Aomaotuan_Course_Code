@@ -1,0 +1,394 @@
+﻿/*焦点图*/
+.banner{
+	width: 100%;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+}
+.banner ul{
+	z-index:1;
+	position:relative;
+	width: 100%;
+	height: 400px;
+}
+.banner ul li{
+	position:absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 400px;
+}
+.banner ul li a{
+    display:block;
+	width: 100%;
+	height: 400px;
+    position:absolute;
+}
+.banner ul li img{
+    position:absolute;
+    left:50%;
+    top:0;
+    width:1920px;
+    margin-left:-960px;
+}
+.banner ol{
+	line-height: 20px;
+	height: 20px;
+	width: 130px;
+	background: rgba(0,0,0,.2);
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -65px;
+	border-radius: 50px; 
+	text-align: center;
+	z-index: 2;
+}
+.banner ol li{
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background: #fff;
+	display: inline-block;
+	margin:0px 7px;
+	cursor: pointer;
+}
+.banner ol li.currentOl{
+	background: #2E3E54;
+}
+.banner span{
+	display: block;
+	width: 40px;
+	height: 100px;
+	position: absolute;
+	top:50%;
+	margin-top: -70px;
+	display: none;
+	cursor: pointer;
+	opacity: 0.5;
+	z-index: 2;
+}
+.banner span:hover{
+	opacity: 1;
+}
+.banner .right{
+	background: url(../images/slide_btn.png) right top;
+	right: 30px;
+}
+.banner .left{
+	background: url(../images/slide_btn.png) left top;
+	left: 30px;
+}
+/*
+	@name 品牌馆首页
+	@author yangyunxin
+	@datetime 2016-3-16
+ */
+@keyframes opacity_change {
+	from {opacity: 0.7;}
+	to {opacity: 1;}
+}
+@-moz-keyframes opacity_change {
+	from {opacity: 0.7;}
+	to {opacity: 1;}
+}
+@-webkit-keyframes opacity_change {
+	from {opacity: 0.7;}
+	to {opacity: 1;}
+}
+@-o-keyframes opacity_change {
+	from {opacity: 0.7;}
+	to {opacity: 1;}
+}
+/*明星品牌*/
+.new_area {padding-bottom: 0px;}
+.star_brand {width: 100%;background-color: #fff;padding-bottom: 66px;}
+.star_top {height: 63px;width: 100%;text-align: center;padding-top: 17px;}
+.star_top h3 {font: 22px/33px "微软雅黑";margin-bottom: 5px;}
+.star_top .top_line {border-top: 1px solid #e5e5e5;width: 338px;margin: 0 auto;}
+.star_top .top_line p {color: #777976;font: 12px/22px "宋体";width: 106px;background: #fff;margin: 0 auto;position: relative;top: -11px;}
+.star_list {font-family: "宋体";width: 1205px;}
+.star_list li {width: 236px;height: 396px;float: left;margin-right: 5px;position: relative;overflow: hidden;}
+.star_list li .star_img {width: 100%;}
+.star_list li .star_show {position: absolute;left: 50%;bottom: 0;height: 44px;width: 160px;margin-left: -80px;background: #fff;text-align: center;padding-top: 3px;}
+.star_list li .line_three {height: 3px;width: 100%;background-color: #0079cc;position: absolute;bottom: 0;left: 0;}
+.star_hover_show {position: absolute;bottom: -220px;left: 50%;width: 160px;height: 204px;margin-left: -80px;background: #fff;padding-top: 16px;text-align: center;transition: all .4s;-moz-transition: all .4s;-o-transition: all .4s;-webkit-transition: all .4s;}
+.star_hover_show h4 {color: #393420;font-size: 12px;line-height: 24px;font-weight: normal;margin-bottom: 15px;}
+.star_hover_show .small_star_logo {height: 40px;width: 100%;margin-bottom: 16px;}
+.star_hover_show .three_short_line {width: 18px;height: 3px;background-color: #0079cc;margin: 0 auto 17px;}
+.star_hover_show .show_more {width: 102px;height: 28px;border: 1px solid #b7b7b7;margin: 0 auto;line-height: 28px;color: #393420;font-size: 14px;margin-bottom: 18px;}
+.star_hover_show .star_des {color: #999;line-height: 16px;font-size: 12px;}
+.star_list li:hover .star_hover_show {bottom: 0px;}
+.star_list li:hover .star_img {animation: opacity_change 1s;-o-animation: opacity_change 1s;-moz-animation: opacity_change 1s;-webkit-animation: opacity_change 1s;}
+/*官方授权品牌左边*/
+.aut_brand {width: 100%;padding: 54px 0;background-color: #ededed;}
+.aut_brand_left {float: left;text-align: center;width: 245px;height: 503px;padding-top: 167px;background-color: #fff;border-left: 5px solid #0079cc;}
+.aut_brand_left dt h4 {color: #333333;font: 22px/33px "微软雅黑";}
+.aut_brand_left dt p {color: #777976;font: 12px/24px "宋体";margin-bottom: 22px;}
+.aut_brand_left dt .three_short_line {width: 20px;background-color: #0079cc;height: 3px;margin: 0 auto 20px;}
+/*官方授权品牌右边*/
+.aut_brand_right {float: right;background:#fff;width: 930px;height: 630px;padding-left: 20px;padding-top: 40px;}
+.aut_brand_list li {width: 138px;height: 138px;overflow:hidden;border: 1px solid #dfdfdf;float: left;position: relative;margin-left: 10px;margin-bottom: 10px;}
+.aut_brand_list .img_wrap {display: table-cell;vertical-align: middle;text-align:center;width: 138px;height: 138px;}
+.aut_brand_list .img_wrap img {vertical-align: middle;}
+.show_brand_des {width: 118px;height: 138px;padding: 0 10px;color: #0079cc;position: absolute;top: -140px;left: -140px;background-color: #fff;}
+/*table居中无效.因此用这种方法*/
+.show_brand_des::before {
+	content: " ";
+	display: inline-block;
+	height: 100%;
+	width: 1%;
+	vertical-align: middle;}
+.show_brand_des p {
+	font: 18px/22px "微软雅黑";
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	width: 110px;
+	color: #0079cc;
+}
+.show_brand_des p::after {content: ""; width: 19px;height: 1px;background-color: #0079cc;display: block;margin: 12px auto 0;}
+/*线条效果*/
+.aut_brand_list li:hover .left {height: 100%;}
+.aut_brand_list li:hover .top {width: 100%;}
+.aut_brand_list li:hover .right {height: 100%;}
+.aut_brand_list li:hover .bottom {width: 100%;}
+.aut_brand_list li .left {transition: all .8s;position: absolute;top: 0;left: 0;width: 1px;height: 0;background-color: #0079cc;}
+.aut_brand_list li .top {transition: all .8s;position: absolute;top: 0;left: 0;width: 0;height: 1px;background-color: #0079cc;}
+.aut_brand_list li .right {transition: all .8s;position: absolute;bottom: 0;right: 0;width: 1px;height: 0;background-color: #0079cc;}
+.aut_brand_list li .bottom {transition: all .8s;position: absolute;bottom: 0;right: 0;width: 0;height: 1px;background-color: #0079cc;}
+
+/*固定部分*/
+.fixSearch{
+	position: fixed;
+	width: 100%;
+	height: 51px;
+	background: #0B7FCE;
+	top:0;
+	left: 0;
+	z-index: 10;
+	display: none;
+}
+.fixSearch .fixlogo{
+	width: 257px;
+	height: 38px;
+	background: url(../images/fixlogo.png) no-repeat;
+	float: left;
+	margin: 6px 25px 0 55px;
+}
+.fixSearch .fixsear{
+	padding-top: 10px;
+	float: left;
+}
+.fixSearch .fixsear input{
+	height: 30px;
+	width: 628px;
+	border: none;
+	outline: none;
+	border-radius: 5px 0 0 5px;
+	text-indent: 1em;
+}
+.fixSearch .fixsear .FSTxt{
+	height: 30px;
+	width: 628px;
+	position: relative;
+	float: left;
+}
+.fixSearch .fixsear em{
+	display: block;
+	height: 18px;
+	width: 18px;
+	position: absolute;
+	top:50%;
+	margin-top: -9px;
+	right: 3px;
+	background: url(../images/ss.png) no-repeat;
+	cursor: pointer;
+}
+.fixSearch .fixsear a{
+	width: 65px;
+	height: 30px;
+	background: #7BBE31;
+	border-radius: 0 5px 5px 0;
+	display: block;
+	float: left;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+}
+.fixNav{
+	width: 35px;
+	position: fixed;
+	z-index: 3;
+	right: 0;
+	bottom: 0;
+	background: #383838;
+	padding-top: 30px;
+	height: 100%;
+}
+.fixNav ul{
+	padding-top: 150px;
+}
+.fixNav li{
+	cursor: pointer;
+	width: 35px;
+	border-bottom: 1px solid #4D4D4D;
+}
+.fixNav li:nth-of-type(1){
+	height:28px;
+	padding-top: 7px;
+	margin-bottom: 40px;
+	position: relative;
+}
+.fixNav .FLhover{
+	height: 35px;
+	width: 80px;
+	color: #fff;
+	line-height: 35px;
+	position: absolute;
+	right: 35px;
+	top:0;
+	background: #33BBF1;
+	text-align: center;
+	display: none;
+}
+.fixNav .Fico{
+	display: block;
+}
+.fixNav li:nth-of-type(1):hover{
+	background: #33BBF1;
+}
+.fixNav  li:nth-of-type(1) .Fico{
+	margin:0 8px 13px 8px;
+	width: 20px;
+	height:20px;
+	background: url(../images/sprite1.png) -1px -1px no-repeat;
+}
+.fixNav li:nth-of-type(1):hover .FLhover{
+	display: block;
+}
+.fixNav li:nth-of-type(2){
+	height: 105px;
+	padding-top: 10px;
+	margin-top: 60px;
+}
+.fixNav li:nth-of-type(2):hover{
+	background: #33BBF1;
+}
+.fixNav li:nth-of-type(2) .Fico{
+	width: 20px;
+	height: 80px;
+	margin: 0 auto;
+	background: url(../images/sprite1.png) -1px -39px no-repeat;
+}
+.fixNav li:nth-of-type(2) em{
+	text-align: center;
+	margin-left: 5px;
+	color: #fff;
+	line-height: 20px;
+	height: 20px;
+	width: 25px;
+	background: #D42148;
+	border-radius: 5px;
+	display: block;
+}
+.fixNav li{
+    position:relative;
+}
+.fixNav .fixTxt{
+    width:25px;
+    height:25px;
+    padding:5px;
+    position:absolute;
+    display:none;
+    top:0;
+    left:0;
+    color:#fff;
+    font:12px/14px "微软雅黑";
+}
+.fixNav .FC{
+	width: 23px;
+	height: 23px;
+	padding:6px;
+	position: absolute;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+.fixNav .FC:hover{
+	background: #2BBABA;
+}
+.fixNav .KeF{
+    background:#D42148;
+    position:relative;
+    height:25px;
+    margin-top:40px;
+}
+.fixNav  .FC .Fico{
+	width: 23px;
+	height: 23px;
+	background: url(../images/sprite1.png) 0 -254px no-repeat;
+}
+.fixNav .KeF .Fico{
+	background-position: 0 -283px;
+}
+.fixNav .news{
+    top:230px;
+    left:0;
+}
+.fixNav .ER{
+	bottom: 40px;
+}
+.fixNav .ER .Fico{
+	background-position: 0 -310px;
+}
+.fixNav .ER .FLhover{
+	width: 112px;
+	height: 130px;
+	background: #fff;
+	right: 35px;
+	top:-50px;
+	color: #000;
+	border: 1px solid #E6E6E6;
+	border-right: none;
+	z-index: 3;
+}
+.fixNav .ER .FLhover em{
+	height: 5px;
+	width: 5px;
+	background: #fff;
+	position: absolute;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	top:50%;
+	right: -3px;
+}
+.fixNav .top {
+	position: absolute;
+	bottom: 0;
+}
+.fixNav .top .Fico{
+	background-position: 0 -340px;
+}
+/*招聘*/
+.fixRecruiting{
+	width: 110px;
+	height: 249px;
+	position: fixed;
+	bottom: 11%;
+	left: 20px;
+	z-index: 30;
+}
+.fixRecruiting button{
+	display: block;
+	width: 110px;
+	height: 30px;
+	background: transparent;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: none;
+	outline: none;
+}

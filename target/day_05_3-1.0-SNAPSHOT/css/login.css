@@ -1,0 +1,191 @@
+/*主要内容*/
+.mainArea{
+	height: 584px;
+	border-top: 3px solid #00AAEE;
+	background:url(../images/bg.png) center center no-repeat; 
+	background-color: #DCEAF3;
+}
+.mainAreaW{
+	position: relative;
+}
+.mainContent{
+	width: 541px;
+	height: 457px;
+	border:1px solid #CACACA;
+	background: #fff;
+	position: absolute;
+	right: 0;
+	top:60px;
+}
+.MCup{
+	padding:30px 25px 0 35px;
+}
+.W310{
+	width: 310px;
+}
+.MCright{
+	padding-right: 30px;
+	padding-bottom: 21px;
+	border-right: 1px solid #EAEAEA;
+	float: left;
+	margin-right: 25px;
+}
+.MCright h3{
+	margin-bottom: 20px;
+	line-height: 32px;
+}
+.MCright h3 a,.MCright h3 span{
+	display: block;
+}
+.MCright h3 span{
+	font: 24px/32px "微软雅黑";
+	float: left;
+}
+.MCright h3 a{
+	font-weight: normal;
+	float: right;
+}
+.MCright input{
+	height: 36px;
+	border:1px solid #cacaca;
+	border-radius: 5px;
+	text-indent: 1em;
+	margin-bottom: 20px;
+}
+.MCright .userName,.MCright .passWord{
+	position: relative;
+}
+.MCright .userName em,.MCright .passWord em{
+	position: absolute;
+	display: block;
+	padding:0 15px;
+	height: 30px;
+	background: url(../images/user.png) center center no-repeat;
+	top:4px;
+	border-right: 1px solid #cacaca;
+}
+.MCright .passWord em{
+	background-image: url(../images/pw.png);
+}
+.MCright .userName input,.MCright .passWord input{
+	text-indent: 3em;
+}
+.MCright p.yzm input{
+	float: left;
+	margin-right: 35px;
+} 
+.MCright p .Ypic{
+	display: block;
+	height: 43px;
+	width: 127px;
+	float: left;
+	line-height: 43px;
+}
+.MCright p .Ypic .YP{
+	display: block;
+	height: 43px;
+	width: 70px;
+	float: left;
+	margin-right: 15px;
+	background: url(../images/yam.gif) top left no-repeat;
+}
+.MCright .Jzmm .checkbox{
+	border:1px solid #ccc;
+	display: block;
+	background: #fff;
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.MCright .Jzmm .checkbox.checked{
+ 	background: url(../images/checkbg.gif) no-repeat center center;
+ 	border: 1px solid #7BBE31;
+ }
+ .MCright .Jzmm{
+ 	line-height: 17px;
+ 	margin-bottom: 27px;
+ }
+ .MCright .Jzmm a{
+  	display: block;
+  	float: right;
+  }
+.MCright .loGin{
+	background: #0079CC;
+	display: block;
+	height: 44px;
+	font: 20px/44px "微软雅黑";
+	color: #fff;
+	text-align: center;
+	border-radius: 5px;
+}
+.W115{
+	width: 115px;
+}
+.MCleft{
+	float: left;
+	padding-top: 64px;
+	text-align: center;
+	color: #999999;
+}
+.MCleft p{
+	font:12px/37px "微软雅黑";
+	border-bottom: 1px #CCCCCC dotted;
+	padding-bottom: 5px;
+}
+.pL{
+	padding:10px 0 90px 0;
+	font:12px/20px "微软雅黑";
+}
+.pL strong{
+	font: bold 14px/20px "微软雅黑";
+	color: #333;
+}
+.MCdown{
+	height: 84px;
+}
+.MCdown p{
+	font: 14px/38px "微软雅黑";
+	color: #666666;
+	padding-left: 35px;
+	border-bottom: 1px solid #EAEAEA;
+}
+.MCdown ul{
+	padding-top: 12px;
+}
+.MCdown ul li{
+	line-height: 22px;
+	height: 22px;
+	border-right: 1px solid #EAEAEA;
+	float: left;
+	padding:0 15px;
+}
+.MCdown ul li a{
+	display: block;
+	float: left;
+	color: #666666;
+}
+.MCdown ul li em{
+	display: block;
+	float: left;
+	margin-right: 5px;
+	width: 25px;
+	height: 25px;
+	background: url(../images/ficon.png) 0 -6px no-repeat;
+}
+.MCdown ul li.BN{
+	border:none;
+}
+.MCdown ul li:nth-of-type(2) em{
+	background-position:-1px -32px;
+}
+.MCdown ul li:nth-of-type(3) em{
+	background-position: 0 -127px;
+}
+.MCdown ul li:nth-of-type(4) em{
+	background-position: -1px -71px;
+}
+.MCdown ul li:nth-of-type(5) em{
+	background-position: 0 -99px;
+}

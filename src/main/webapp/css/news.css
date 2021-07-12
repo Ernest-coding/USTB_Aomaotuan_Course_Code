@@ -1,0 +1,254 @@
+/*主要内容*/
+.area{
+	background: #F3F3F3;
+	font:12px/20px "微软雅黑";
+	color: #333;
+}
+.boxS{
+	box-shadow: 0px 5px 10px rgba(0,0,0,.2);
+}
+.area p{
+	margin-bottom: 14px;
+}
+/*位置导航*/
+.subnav{
+	height: 50px;
+	line-height: 50px;
+	color: #656565;   
+}
+.subnav .SNLeft{
+	float: left;
+}
+.subnav .SNLeft li{
+	float: left;
+}
+.subnav .SNLeft li a{
+	color: #656565;
+}
+/*主体内容*/
+.W1006{
+	width: 1060px;
+	margin:0 auto;
+}
+.areaBd{
+	padding:50px 42px;
+	background: #fff;
+	margin-bottom: 42px;
+}
+/*左侧*/
+.areaBdleft{
+	width: 156px;
+	border:1px solid #EDEDED;
+	background: #F5F5F5;
+	float: left;
+}
+.ClaCont{
+	padding:0 11px;
+}
+.ClaCont dt{
+	height: 42px;
+	font: 600 14px/42px "微软雅黑";
+}
+.ClaCont dd{
+	font: 12px/32px "微软雅黑";
+	border-bottom: 1px dashed #999999;
+	position: relative;
+}
+.ClaCont dd a{
+	color:#666666;
+}
+.ClaCont dd em{
+	display: block;
+	position: absolute;
+	background: url(../images/click2.gif) 110px center no-repeat;
+	width: 134px;
+	height: 42px;
+	top:-42px;
+	right: 0px;
+	cursor: pointer;
+}
+.ClaCont dd ul{
+	display: none;
+}
+.ClaCont dd.last{
+	border: 0;
+}
+.ClaCont dd.cli em{
+	background: url(../images/click1.gif) 110px center no-repeat;
+}
+.ClaCont dd.cli ul{
+	display: block;
+}
+.ClaCont dd ul li{
+	cursor: pointer;
+}
+.ClaCont dd ul li.current_now{
+	background: #0079CC;
+	width: 156px;
+	height: 32px;
+	margin-left: -12px;
+	padding-left: 12px;
+}
+.ClaCont dd ul li.current_now a{
+	color: #fff;
+}
+.ClaCont dd ul li.current_now:hover a{
+	color: #fff;
+}
+.ClaCont dd ul li:hover a{
+	color: #D42148;
+}
+/*右边内容*/
+.areaBdright{
+	width: 812px;
+	float: right;
+	background: #FFF;
+	border:1px solid #EDEDED;
+	padding-bottom: 10px;
+	font:14px/24px "微软雅黑";
+}
+.areaBdright h2{
+	font:600 20px/36px "微软雅黑";
+	border-bottom: 1px solid #EDEDED;
+	padding:10px 20px;
+}
+.areaBdright h3{
+	font: 600 16px/30px "微软雅黑";
+}
+.areaBdright .mianArea{
+	padding: 0 20px;
+}
+.areaBdright .tac{
+	text-align: center;
+}
+.areaBdright .oneArea{
+	padding-top: 10px;
+}
+.areaBdright .D42{
+	color:  #D42148;
+	background: #eee;
+	margin-left: -20px;
+	padding-left: 20px;
+	width: 792px;
+	margin-bottom: 10px;
+}
+.areaBdright .ble{
+	color: #0079CC;
+}
+.Recuit{
+	margin-top: 10px;
+	border-bottom: 1px dashed #dddddd;
+}
+.areaBdright .moreArea{
+	padding-top: 10px;
+	height: 30px;
+	font: 14px/20px "微软雅黑";
+	text-align: center;
+}
+.areaBdright .place{
+	background: #eee;
+	padding-top:9px; 
+}
+.areaBdright .moreArea i{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background: #fff;
+	border: 1px solid transparent;
+	border-top-color: #333;
+	border-left-color: #333; 
+	transform: rotate(-135deg); 
+	-webkit-transform: rotate(-135deg); 
+	-o-transform: rotate(-135deg); 
+	-ms-transform: rotate(-135deg);
+	-moz-transform: rotate(-135deg);
+	margin-left: 5px;
+	margin-top: 1px;
+}
+table td,table th{
+	float: left;
+	border:1px solid #333;
+	width: 365px;
+	margin-right: -1px;
+	margin-top: -1px;
+}
+table th{
+	text-align: center;
+	padding:5px;
+}
+table td{
+	height: 130px;
+	padding:5px;
+}
+table.explain th{
+	color: #D42148;
+}
+table.explain caption{
+	font: bold 16px/24px "微软雅黑";
+	margin-bottom: 10px;
+}
+table.explain th,table.explain td{
+	width: 190px;
+}
+tr.Area td{
+	height: 395px;
+}
+table.coupon caption{
+	font: bold 16px/24px "微软雅黑";
+	margin:20px 0;
+}
+table.coupon td{
+	height: 50px;
+}
+/* 购物流程页面 */
+.shopping-process h2{
+	color: #00AAEE;
+}
+.shopping-process h2 strong,.shopping-process h2 i{
+	display: block;
+	float: left;
+}
+.shopping-process h2 i{
+	width: 186px;
+	height: 34px;
+	margin-left: 5px;
+	background-image: url(../images/shoppingProcess-title.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.shopping-process h3{
+	margin-bottom: 10px;
+}
+.shopping-process h3 i{
+	display: block;
+	background-image: url(../images/shopping-process.png);
+	width: 230px;
+	height: 50px;
+}
+.shopping-process .mianArea{
+	margin-bottom: 40px;
+}
+.shopping-process .oneArea h3 i{
+	background-position: 0px 0px;
+}
+.shopping-process .twoArea h3 i{
+	background-position: 0px -65px;
+}
+.shopping-process .threeArea h3 i{
+	background-position: 0px -133px;
+}
+.shopping-process .fourArea h3 i{
+	background-position: 0px -202px;
+}
+.shopping-process .fiveArea h3 i{
+	background-position: 0px -271px;
+}
+.shopping-process .sixArea h3 i{
+	background-position: 0px -337px;
+}
+.shopping-process .sevenArea h3 i{
+	background-position: 0px -405px;
+}
+.shopping-process p em{
+	color: #f20c0c;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.ustb.mapper.adminMapper">
+
+    <resultMap id="adminsInfo" type="edu.ustb.domain.Admin">
+        <id column="admin_id" property="adminId"/>
+        <result column="admin_name" property="adminName"/>
+        <result column="admin_pass" property="adminPass"/>
+        <result column="admin_role" property="adminRole"/>
+        <result column="role_id" property="role.roleId"/>
+        <result column="role_name" property="role.roleName"/>
+    </resultMap>
+
+    <select id="findByAdminName" resultMap="adminsInfo">
+        SELECT * FROM admins LEFT JOIN roles ON admin_role = role_id WHERE admin_name = #{adminName}
+    </select>
+
+    <select id="findAll" resultType="edu.ustb.domain.Admin">
+        select * from admins
+    </select>
+</mapper>

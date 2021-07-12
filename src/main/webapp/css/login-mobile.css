@@ -1,0 +1,189 @@
+html,body,.scope{
+	background: #FFF;
+}
+.header{
+	height: 1.5rem;
+	width: 100%;
+	margin-bottom: 0.6rem;
+}
+header{
+	width: 100%;
+	height: 1.5rem;
+	background: #1E88E5;
+	color: #fff;
+	font: 600 0.5rem/1.5rem "微软雅黑";
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 2;
+}
+.back{
+	position: absolute;
+	width: 20%;
+	left: 10%;
+	top:0;
+}
+.back a{
+	color: #fff;
+}
+.back em{
+	display: block;
+	width: 15px;
+	height: 15px;
+	background: #1E88E5;
+	position: absolute;
+	top: 35%;
+	left: -20%;
+	z-index:-1;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	transform: rotate(-135deg);
+}
+.title{
+	position: absolute;
+	left: 46%;
+	top: 0;
+}
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 0.7rem;
+}
+.logo img{
+	display:inline-block;
+	width: 26%;
+}
+.content{
+	width: 100%;
+	padding: 0 5%;
+	border-top: 1px solid #C8C7CC;
+	border-bottom: 1px solid #C8C7CC;
+	margin-bottom: 0.7rem;
+	font-size: 0.3rem;
+}
+.content div{
+	width: 100%;
+	height: 1.45rem;
+	position: relative;
+}
+.content input{
+	height: 100%;
+	width: 100%;
+	text-indent: 15%;
+}
+.content .user{
+	border-bottom: 1px solid #C8C7CC;
+}
+.content em{
+	display: block;
+	position: absolute;
+	width: 10%;
+	height: 70%;
+	background:url(../images/user1_mobile.jpg) center center no-repeat;
+	background-size: 100%;
+}
+.user em:nth-of-type(1){
+	left: 1%;
+	top:8%;
+}
+.user em:nth-of-type(2){
+	right: 1%;
+	top: 8%;
+	background-image: url(../images/user2_mobile.jpg);
+}
+.pwd em:nth-of-type(1){
+	left: 1%;
+	top:8%;
+	background-image: url(../images/pwd1_mobile.jpg);
+}
+.pwd em:nth-of-type(2){
+	right: 1%;
+	top: 8%;
+	background-image: url(../images/pwd3_mobile.jpg);
+}
+.pwd em.remb{
+	background-image: url(../images/pwd2_mobile.jpg);
+}
+.login{
+	height: 1.25rem;
+	padding:0 5%;
+	margin-bottom: 0.4rem;
+}
+.login a{
+	display: block;
+	width: 100%;
+	font:0.6rem/1.25rem "微软雅黑";
+	background: #7ABF30;
+	color: #fff;
+	text-align: center;
+	border-radius: 3px;
+}
+.txt{
+	padding:0 5%;
+	margin-bottom: 0.5rem;
+	font-size: 0.3rem;
+}
+.txt .left{
+	float: left;
+}
+.txt .right{
+	float: right;
+}
+.foot{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 2.2rem;
+	width: 100%;
+	background: #999999;
+	font-size: 0.3rem;
+}
+.other{
+	height: 30%;
+	padding:0 5%;
+	width: 100%;
+	position: absolute;
+	top: -30%;
+	left: 0;
+}
+.other p{
+	height: 100%;
+	border-top: 1px solid #C8C7CC;
+	position: relative;
+}
+.other p span{
+	text-align: center;
+	display: block;
+	width: 40%;
+	background: #fff;
+	position: absolute;
+	top:-40%;
+	left: 30%;
+}
+footer ul{
+	height: 100%;
+	padding:0 10%;
+}
+footer li{
+	position: relative;
+	float: left;
+	width: 18%;
+	height: 2rem;
+	background:url(../images/qq_mobiel.png) center center no-repeat;
+	background-size: 100%;
+	margin:0 7%;
+}
+footer li:nth-of-type(2){
+	background-image: url(../images/sina_mobile.png);
+}
+footer li:nth-of-type(3){
+	background-image: url(../images/weixin_mobile.png);
+}
+footer li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}

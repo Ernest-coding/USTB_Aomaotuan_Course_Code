@@ -1,0 +1,35 @@
+/*主要内容*/
+.mainArea{
+	height: 555px;
+    background: url(../images/bg.png) center 50px no-repeat;
+    background-size: 150%;
+    background-color: #DCEAF3;
+}
+.mainContent{
+	width: 492px;
+	height: 435px;
+	top: 30px;
+}
+.MCup{
+	padding:20px 15px 0 25px;
+}
+.W310{
+	width: 295px;
+}
+.MCright{
+	padding-right: 20px;
+	padding-bottom: 21px;
+	margin-right: 15px;
+}
+.MCright h3{
+	margin-bottom: 10px;
+}
+.MCright h3 span{
+	font: 22px/32px "微软雅黑";
+}
+.MCleft{
+	padding-top: 50px;
+}
+.MCdown ul li{
+	padding:0 10px;
+}

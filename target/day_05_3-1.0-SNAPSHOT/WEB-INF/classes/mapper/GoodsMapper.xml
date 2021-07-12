@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.ustb.mapper.goodsMapper">
+
+    <resultMap id="FunsInfo" type="edu.ustb.domain.Funs">
+        <id column="fun_id" property="funId"/>
+        <result column="fun_name" property="funName"/>
+        <result column="fun_url" property="funUrl"/>
+        <result column="fun_pid" property="funPid"/>
+        <result column="fun_target" property="funTarget"/>
+        <result column="fun_sort" property="funSort"/>
+        <result column="fun_level" property="funLevel"/>
+    </resultMap>
+
+    <select id="findFunsByRoleId" resultMap="FunsInfo">
+        SELECT * FROM funs LEFT JOIN permissions ON permission_fun = fun_id WHERE permission_role = #{roleId}
+    </select>
+
+    <resultMap id="FunsInfo2" type="edu.ustb.domain.Funs">
+        <id column="fun_id" property="funId"/>
+        <result column="fun_name" property="funName"/>
+        <result column="fun_url" property="funUrl"/>
+        <result column="fun_pid" property="funPid"/>
+        <result column="fun_target" property="funTarget"/>
+        <result column="fun_sort" property="funSort"/>
+        <result column="fun_level" property="funLevel"/>
+    </resultMap>
+
+    <select id="findFunsByFunId" resultMap="FunsInfo2">
+        SELECT * FROM funs WHERE fun_pid = #{funId} ORDER BY fun_sort ASC
+    </select>
+</mapper>

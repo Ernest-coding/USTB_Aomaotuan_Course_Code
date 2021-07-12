@@ -1,0 +1,48 @@
+/*主要内容*/
+.mainArea{
+	height: 510px;
+    background: url(../images/bg.png) center 30px no-repeat;
+    background-size: 155%;
+    background-color: #DCEAF3;
+}
+
+.mainContent{
+	width: 485px;
+	height: 400px;
+	top: 30px;
+}
+.MCup{
+	padding: 10px 5px 0 15px;
+}
+.W310{
+	width: 300px;
+}
+.MCright{
+	padding-right: 20px;
+	padding-bottom: 21px;
+	margin-right: 15px;
+}
+.MCright h3{
+	margin-bottom: 10px;
+}
+.MCright h3 span{
+	font: bold 20px/32px "微软雅黑";
+}
+.MCright input {
+    margin-bottom: 15px;
+}
+.MCright p.yzm input {
+    margin-right: 20px;
+}
+.MCleft{
+	padding-top: 50px;
+}
+.pL {
+    padding: 10px 0 70px 0;
+}
+.MCdown ul {
+    padding-top: 9px;
+}
+.MCdown ul li{
+	padding:0 9px;
+}

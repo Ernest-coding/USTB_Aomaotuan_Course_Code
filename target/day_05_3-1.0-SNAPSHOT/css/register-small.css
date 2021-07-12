@@ -1,0 +1,16 @@
+/*主体内容*/
+.bd{
+	height: 555px;
+    background: url(../images/bg.png) center 50px no-repeat;
+    background-size: 150%;
+    background-color: #DCEAF3;
+}
+.bdArea{
+	padding:20px 15px 0 25px;
+}
+.bdATxt{
+	margin-right: 15px;
+}
+.bdATxt h3{
+	margin-bottom: 10px;
+}

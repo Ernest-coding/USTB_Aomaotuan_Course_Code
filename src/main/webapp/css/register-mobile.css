@@ -1,0 +1,271 @@
+html,body{
+	background: #FFF;
+	height: 100%;
+}
+.header{
+	height: 1.5rem;
+	width: 100%;
+	margin-bottom: 0.6rem;
+}
+header{
+	width: 100%;
+	height: 1.5rem;
+	background: #1E88E5;
+	color: #fff;
+	font: 600 0.5rem/1.5rem "微软雅黑";
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 2;
+}
+.back{
+	position: absolute;
+	width: 20%;
+	left: 10%;
+	top:0;
+}
+.back a{
+	color: #fff;
+}
+.back em{
+	display: block;
+	width: 15px;
+	height: 15px;
+	background: #1E88E5;
+	position: absolute;
+	top: 35%;
+	left: -20%;
+	z-index:-1;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	transform: rotate(-135deg);
+}
+.title{
+	position: absolute;
+	left: 49%;
+	top: 0;
+}
+.state{
+	padding: 0 5%;
+	height: 1.15rem;
+	margin-bottom: 5%;
+}
+.statetxt{
+	height: 100%;
+	width:100%;
+}
+.statetxt span{
+	display: block;
+}
+.statetxt .left{
+	width: 12%;
+	background: url(../images/toptxt_mobile.jpg) center center no-repeat;
+	background-size: 100%;
+	float: left;
+	height: 100%;
+}
+.statetxt .right{
+	width: 87.5%;
+	float: right;
+	padding:0.1rem 0.2rem;
+	height: 100%;
+	background: #C0A071;
+	color: #fff;
+	font: 0.35rem "微软雅黑";
+}
+.content{
+	padding:0 5%;
+	width: 100%;
+	position: relative;
+	margin-bottom: 1rem;
+}
+.content input{
+	width: 100%;
+	height: 1.355rem;
+	border-bottom: 1px solid #D5D5D5;
+	font-size: 0.4rem;
+}
+.content button{
+	height:0.97rem;
+	border-radius: 5px;
+	background: #A9A9A9;
+	color: #fff;
+	font-size: 1em;
+	padding:0 3%;
+	right: 5%;
+	bottom: 3%;
+	position: absolute;
+	font: 0.4rem/0.97rem "微软雅黑"; 
+}
+.choose{
+	width: 100%;
+	padding: 0 5%;
+	color: #6D6D6D;
+	font: 0.4rem "微软雅黑";
+}
+.checkbox{
+	border:1px solid #D5D5D5;
+	width: 3%;
+	display: block;
+	width: 15px;
+	height: 15px;
+	margin-right: 2%;
+	background: #fff;
+}
+.checkbox.checked{
+	background: url(../images/checkedbg_mobile.jpg) center center no-repeat;
+	background-size: 100%;
+}
+.Recommend span{
+	display: block;
+	float: left;
+}
+.Rpeople{
+	height: 1.315rem;
+	border-bottom: 1px solid #D5D5D5;
+	margin-bottom: 0.5rem;
+	line-height: 1.315rem;
+}
+.agreement{
+	margin-bottom: 0.95rem;
+}
+.agreement span{
+	display: block;
+	float: left;
+}
+.agreement em{
+	color: #F33066;
+}
+.loginAndRegister{
+	padding:0 5%;
+	height: 1.41rem;
+	width: 100%;
+	margin-bottom: 0.95rem;
+}
+.loginAndRegister a{
+	display: block;
+	width: 49%;
+	height: 100%;
+	font:0.4rem/1.41rem "微软雅黑";
+	text-align: center;
+	border-radius: 5px;
+	color: #fff;
+}
+.login{
+	float: left;
+	background: #7BBE31;
+}
+.loginAndRegister .register{
+	font-size: 0.5rem;
+	float: right;
+	background: #1E88E5;
+}
+.hint{
+	width: 100%;
+	height: 5.65rem;
+	font-size: 0.4rem;
+	padding:0 5%;
+}
+.hint em,.hint span{
+	display: block;
+	float: left;
+	background-size: 100%;
+	background: url(../images/bgright_mobile.jpg) center center;
+}
+.hint em{
+	height: 100%;
+	width: 2%;
+}
+.hint span{
+	width: 96%;
+	height: 100%;
+	padding:2% 0;
+	background: #C0A071;
+	color: #fff;
+}
+.hint .right{
+	background-image:url(../images/bgleft_mobile.jpg);
+}
+footer{
+	padding:5%;
+	width: 100%;
+	text-align: center;
+}
+/*模态窗口*/
+.mode{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 3;
+	display: none;
+}
+.mode .scope{
+	background: transparent;
+}
+.modeArea{
+	width: 8rem;
+    height: 13rem;
+	margin: 1.315rem auto 0;
+	background: #fff;
+	border-radius: 10px;
+}
+.upImg{
+	width: 100%;
+	height: 8.6rem;
+	background: url(../images/success_mobile.png) center center no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+.upImg span{
+	width: 15%;
+	height: 15%;
+	font-size: 5em;
+	color: #fff;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+.downTxt{
+	padding:0 3%;
+	position: relative;
+}
+.downTxt em{
+	width: 0.8rem;
+	height: 0.8rem;
+	background: url(../images/ture_mobile.png) center center no-repeat;
+	display: block;
+	position: absolute;
+	left: 0.3rem;
+	top: 0.5rem;
+}
+.downTxt p{
+	width: 100%;
+	text-align: center;
+	font-size: 0.7rem;
+    padding: 0.4rem 0;
+	color: #f33066;
+	border-bottom: 1px solid #d2d2d2;
+	margin-bottom: 0.7rem;
+}
+.downTxt a{
+	display: block;
+	text-align: center;
+	width: 48%;
+	height: 1.095rem;
+	color: #fff;
+	border-radius: 5px;
+	font: 0.35rem/1.095rem "微软雅黑";
+}
+.downTxt .left{
+	float: left;
+	background: #7BBE31;
+}
+.downTxt .right{
+	float: right;
+	background: #1E88E5;
+}

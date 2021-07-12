@@ -1,0 +1,344 @@
+/*头部*/
+header{
+	width: 100%;
+	height: 3rem;
+	border-bottom: 1px solid #D5D5D5;
+}
+header .warp{
+	width: 100%;
+	height: 3rem;
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 2;
+	background: #FFF;
+}
+/*顶部标题部分*/
+.header{
+	height: 1.5rem;
+	text-align: center;
+	border-bottom: 1px solid #D5D5D5;
+	background: -webkit-linear-gradient(left,#00A1D5,#1148A9);
+	background: -moz-linear-gradient(left,#00A1D5,#1148A9);
+	background: -o-linear-gradient(left,#00A1D5,#1148A9);
+	background: -ms-linear-gradient(left,#00A1D5,#1148A9);
+}
+.header .back{
+	display: block;
+	float: left;
+	width: 0.3rem;
+	height: 0.4rem;
+	margin-top: 0.6rem;
+	background: url(../images/backW_mobile.png) center center no-repeat;
+	background-size: 79%;
+	margin-left: 0.3rem;
+}
+.header .title{
+	display: inline-block;
+	font: 500 0.5rem/1.5rem "微软雅黑";
+	color: #000000;
+}
+.header .title input{
+	height: 0.8rem;
+    width: 6rem;
+    border-radius: 3px;
+    text-indent: 0.2rem;
+}
+.header .share{
+	width: 0.7rem;
+	height: 0.5rem;
+	background: url(../images/shareW_mobile.png) center center no-repeat;
+	background-size: 80%;
+	display: block;
+	float: right;
+	margin-top: 0.5rem;
+	margin-right: 0.3rem;
+}
+/*导航*/
+nav{
+	width: 100%;
+	height: 1.5rem;
+	font: 500 0.5rem/1.5rem "微软雅黑";
+	border-bottom: 1px solid #DDD;
+	background: #FFF;
+	margin-bottom: 0.2rem;
+}
+nav ul{
+	width: 90%;
+	margin:0 auto;
+}
+nav li{
+	float: left;
+	padding:0 0.1rem;
+}
+nav li.sort{
+	position: relative;
+}
+nav li.sort em{
+	position: absolute;
+}
+nav li.sort em:nth-of-type(1){
+	left: 50px;
+	top: -2px;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+nav li.sort em:nth-of-type(2){
+	left: 49px;
+	top: 6px;
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+}
+
+nav li a{
+	padding:0.3rem 0.4rem;
+}
+nav li .current{
+	color: #0079CC;
+	border-bottom: 2px solid #0079CC;
+}
+/*banner*/
+.banner{
+	height: 4.72rem;
+	margin-bottom: 0.1rem;
+}
+/*主要内容*/
+.main{
+	width: 100%;
+}
+.aomao{
+	width: 100%;
+	padding-bottom: 0.1rem;
+	margin-bottom: 0.2rem;
+}
+.aomao ul{
+	width: 95%;
+	margin: 0 auto;
+}
+.aomao li{
+	width: 49%;
+	float: left;
+	background: #fff;
+	margin-bottom: 0.2rem;
+}
+.aomao li:nth-of-type(2n){
+	float: right;
+}
+.aomao li a{
+	width: 100%;
+	display: block;
+}
+/*澳猫团产品图*/
+.aomaoPic{
+	display: block;
+	height: 4.5rem;
+	width: 100%;
+}
+.aomaoPic img{
+	width: 100%;
+}
+/*澳猫团文字*/
+.aomaoTxt{
+	width: 95%;
+	display: block;
+	margin:0 auto;
+	padding:0.2rem 0;
+}
+.aomaoTxt .price{
+	display: block;
+	height: 1.2rem;
+	font: 0.3rem/1.2rem "微软雅黑";
+	border-bottom: 1px dashed #B5B5B5;
+	overflow: hidden;
+}
+.aomaoTxt .price .left{
+	float: left;
+	display: block;
+}
+.aomaoTxt .price .left b{
+	color: #F33066;
+	margin-right: 0.1rem;
+}
+.aomaoTxt .price .left .big{
+	font-size: 0.6rem;
+}
+.aomaoTxt .price .right{
+	display: block;
+	float: right;
+	height: 0.6rem;
+	padding:0 0.2rem;
+	margin-top: 0.3rem;
+	font: 0.3rem/0.6rem "微软雅黑";
+	background: #F33066;
+	color: #fff;
+}
+.aomaoTxt .pro{
+	display: block;
+	overflow: hidden;
+	font: 0.4rem/0.6rem "微软雅黑";
+	color: #000;
+	width: 100%;
+	height: 1.45rem;
+	padding-top: 0.2rem;
+}
+.nomore{
+	height: 2rem;
+	background: #fff;
+	font: 500 0.5rem/2rem "微软雅黑";
+	color: #808080;
+	border-bottom: 1px solid #C2C2C2;
+	text-align: center;
+}
+.footer{
+	height: 1.565rem;
+	background: #fff;
+	font: 0.3rem/0.6rem "微软雅黑";
+	text-align: center;
+	color: #848484;
+	padding-top: 0.3rem;
+}
+/*底部*/
+.foot{
+	width: 100%;
+	position: fixed;
+	bottom:0;
+	left: 0;
+	height: 1.547rem;
+}
+footer{
+	height: 100%;
+	background: #fff;
+	border-top: 1px solid #B1B1B0;
+}
+footer ul{
+	width: 100%;
+	position: relative;
+	padding:3px 0;
+	height: 100%;
+	text-align: center;
+}
+footer ul li{
+	font: 0.4rem "微软雅黑";
+	display:inline-block;
+	width: 18%;
+	height: 100%;
+	position: relative;
+}
+footer .round em{
+	width: 0.3rem;
+    height: 0.3rem;
+    display: block;
+    background: #F33066;
+    border-radius: 50%;
+    position: absolute;
+    right: 18%;
+    top: 0%;
+}
+.icon{
+	padding-top: 5%;
+	width: 100%;
+	height: 100%;
+}
+.icon a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url(../images/hover1_mobile.png) top center no-repeat;
+	background-size: 70%;
+}
+footer ul li:nth-of-type(2){
+	padding-top: 0.02rem;
+}
+footer ul li:nth-of-type(2) a{
+	background-image: url(../images/hover2_mobile.png);
+}
+footer ul li:nth-of-type(3){
+	padding-top: 0.07rem;
+}
+footer ul li:nth-of-type(3) a{
+	background-image: url(../images/hover3_mobile.png);
+}
+footer ul li:nth-of-type(4){
+	padding-top: 0.04rem;
+}
+footer ul li:nth-of-type(4) a{
+	background-image: url(../images/hover4_mobile.png);
+}
+footer ul li:nth-of-type(5) a{
+	background-image: url(../images/hover5_mobile.png);
+}
+.icon a.checked{
+	background-position: bottom center;
+}
+/*返回顶部*/
+.top{
+	width: 1rem;
+	height: 1rem;
+	position: fixed;
+	bottom: 2rem;
+	right: 0.5rem;
+	display: none;
+}
+.top img{
+	width: 100%;
+	opacity: 0.9;
+}
+/*模态窗口*/
+.mode{
+	width:100%;
+	background:rgba(0,0,0,.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	display: none;
+}
+.sharedw{
+	height: 5rem;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #fff;
+	z-index: 4;
+	padding:0.5rem;
+}
+.sharedw li{
+	height: 1rem;
+	width: 1rem;
+	float: left;
+	margin-right: 1.66rem;
+	margin-bottom: 0.5rem;
+}
+.sharedw li.mrn{
+	margin-right: 0;
+}
+.sharedw li a{
+	height: 1rem;
+	width: 1rem;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100%;
+}
+.sharedw li:nth-of-type(1) a{
+	background-image: url(../images/qqicon_mobile.png);
+}
+.sharedw li:nth-of-type(2) a{
+	background-image: url(../images/weixinico_mobile.png);
+}
+.sharedw li:nth-of-type(3) a{
+	background-image: url(../images/badico_mobile.png);
+}
+.sharedw li:nth-of-type(4) a{
+	background-image: url(../images/sinaico_mobile.png);
+}
+.sharedw li:nth-of-type(5) a{
+	background-image: url(../images/tecico_mobile.png);
+}

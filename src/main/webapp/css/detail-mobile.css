@@ -1,0 +1,85 @@
+/*banner*/
+.banner img{ width:100%; display:block; max-height:500px}
+.banner,.banner2{width:100%; position: relative;}
+.swipe {overflow: hidden;visibility: hidden; position: relative;}
+.swipe-wrap {overflow: hidden;position: relative;}
+.swipe-wrap > div {float:left;width:100%; position: relative;}
+.page,.page22{position:absolute;bottom:5px;left:50%;z-index:98;height:auto; -webkit-transform:translateX(-50%); }
+.page a,.page22 a{width:10px;height:10px;display:inline-block;text-indent:-1000px; background: #656565; border-radius: 50%;  margin-left: 5px; float: left}
+.page a.active,.page22 a.active{ background: #fd6397;}
+
+.yahoo a{ color: #333;}
+.he{padding: 10px; height: 1rem; display: none;}
+
+.soucang i{ color: #f33066; margin-right: 10px;}
+.pagenav a{ background: #b6b6b6; width: 8px; height: 8px; margin-left: 10px;}
+.pagenav a.active{background: #626262;}
+
+.deta a{ line-height: 1rem; background: #D2D3D4;border-bottom: 1px solid #c7c7c7;border-top: 1px solid #c7c7c7; width: 33.33%; float: left;padding: 0.1rem 0;}
+
+.deta span{ display: block;text-align: center;border-right: 1px solid #c7c7c7;-webkit-box-sizing:border-box;}
+.deta a.cur{ color: #fff; background: #34383B;}
+.deta a.cur span{ border: 0;}
+.stop{ background: #fff; border-bottom: 1px dashed #d0d0d0;}
+.stop{ padding: 5px 10px;}
+.stop h2{ color: #808080; font: normal 0.3rem/1rem "微软雅黑";}
+.stop em{ color: #f33066; margin-right: 0.2rem;}
+.stop span{ font-size: 0.6rem;}
+.stop del{margin-right: 0.2rem;}
+.stop span.c{padding:0.06rem;font-size: 0.3rem;color: #fff; border-radius: 3px; margin-right: 0.1rem;}
+.stop span.y{background: #F6AC19;}
+.stop span.r{background: #E50065;}
+.stop span.g{background: #7BBE31;}
+.stop p{ line-height: 1.5;}
+.stop p:nth-of-type(1){margin-bottom: 0.2rem;}
+
+.some{ background: #fff; padding:10px; color: #747474; line-height: 1.5;}
+.some p{ color: #9c9ea3; font-size: .375rem;}
+.desn{ background: #fff; padding: 0 10px;}
+.data{ color: #8e8e8e; padding-bottom: 10px;margin-bottom: 0.3rem;}
+.data em{ color: #000}
+.data li{ height: 0.85rem; line-height: 0.85rem;}
+.zone h4{font: 600 0.3rem/1rem "微软雅黑";color: #0079CC;border-bottom: 1px dashed #D6D7D8;margin-bottom: 0.2rem;}
+/*消费者告知书*/
+.WInform{position: relative;background: #F9F9F9;border:1px solid #D6D7D8;padding:0.1rem;margin-bottom: 0.3rem;}
+.Inform{border: 1px solid #D6D7D8;padding:0.3rem;}
+.Inform h6{text-align: center;font: 0.4rem/0.8rem "微软雅黑";color: #333;}
+.mascot{position: absolute;top:-15px;left: -8px;}
+.mascot img{width: 55%;}
+/*温馨提示*/
+.hint{color: #fff;}
+.hint h6{font: 0.5rem/1rem "微软雅黑";background:#FFB400;text-align: center;}
+.hint p{background: #104CAE;padding:0 0.2rem;}
+/*品牌故事*/
+.story{border:1px solid #D6D7D8;margin:0.3rem 0;padding:0.3rem;}
+.story h6{text-align: center;}
+/*商品详情*/
+.mean{margin-bottom: 0.3rem;}
+.buyopt{ position: fixed; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.6); height: 1.25rem; line-height: 1.25rem;}
+.buyopt a{ color: #fff; display: block; text-align: center;position: relative;}
+.buyopt a.addcar{ background: #D32059;width: 2rem;}
+.buyopt .addcar.first{background: #00abef;}
+.buyopt a:nth-of-type(1){width: 0.5rem;}
+.buyopt a:nth-of-type(1) img{width: 45%;margin:0 auto;padding-top: 0.25rem;}
+.buyopt a:nth-of-type(2){width: 0.5rem;position: relative;margin-right: 0.1rem;}
+.buyopt a:nth-of-type(2) img{width: 50%;padding-top: 0.3rem;}
+.buyopt a i{position: absolute; width: 16px; height: 16px; text-align: center;line-height: 16px; color: #fff; background:#D32059; border-radius: 50%; top: -0.1rem; left: 45%; margin-left: 10px;}
+.mask{ position: fixed; left: 0; top: 0; bottom: 0; right: 0; background: rgba(0,0,0,0.618); z-index: 9998; display: none}
+.before{position: fixed; left: 0; bottom: 0; right: 0; z-index: 9999; background: #fff; padding: 0 10px; color: #414141; font-size: .375rem; display: none;}
+.btop{  line-height: 1rem; border-bottom: 1px dashed #c7c7c7; padding: 10px 0;}
+.btop span{ margin-right: 5px;}
+.btop em{ display: inline-block; border: 1px solid #ccc; margin-right: 10px; padding: 0 10px;border-radius: 3px;}
+.btop em.cur{ color: #f33066;border-color: #f33066; background: url(../images/cur_mobile.png) no-repeat right bottom; background-size: .5rem;}
+.chima {-webkit-box-orient: vertical;}
+.chima a{ color: #4b90e3; float: right;}
+.btop .changenum{ float: left}
+.btop .changenum i{ color: #414141}
+.tip{ height: 1rem; line-height: 1rem; margin: 10px 0; background: #e5e5e5; border-radius: 5px;padding: 0 10px; color: #f33066}
+.tip span{ float: right; color: #a5a5a5; font-size: .40625rem}
+.btns{ padding-bottom: 10px;}
+.btns a{ height: 1rem; line-height: 1rem; display: inline-block; width: 48%; text-align: center; color: #fff; background: #cccccc; border-radius: 5px; font-size: .4375rem}
+.btns a:last-child{ background: #f33066; float: right;}
+
+.zone{ display: none;}
+.header span{ display: inline-block; width: 8em; overflow: hidden; height: 100%;white-space: nowrap;
+text-overflow: ellipsis;}
